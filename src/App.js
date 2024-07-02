@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import { MobileHeader } from './Components/MobileHeader';
+import { MobileHome } from "./Pages/MobileHome.1";
+import { MobileFooter } from './Components/MobileFooter';
+import { Publications } from './Pages/publications';
+import { Cv } from './Pages/cv';
+import { Contact } from './Pages/contact';
+import { About } from './Pages/about';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='web-container'>
+      <BrowserRouter>
+        <MobileHeader />
+        <Routes>
+          <Route path="/" element={<MobileHome />} />
+          <Route path="/home" element={<MobileHome />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/publications" element={<Publications/>} />
+          <Route path="/cv" element={<Cv />} />
+        </Routes>
+        <MobileFooter/>
+      </BrowserRouter>
     </div>
   );
 }
