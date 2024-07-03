@@ -7,13 +7,12 @@ import { Publications } from './Pages/publications';
 import { Cv } from './Pages/cv';
 import { Contact } from './Pages/contact';
 import { About } from './Pages/about';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, BrowserRouter, HashRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className='web-container'>
-      <BrowserRouter>
-        <MobileHeader />
+      <MobileHeader />
         <Routes>
           <Route path="/" element={<MobileHome />} />
           <Route path="/home" element={<MobileHome />} />
@@ -23,7 +22,6 @@ function App() {
           <Route path="/cv" element={<Cv />} />
         </Routes>
         <MobileFooter/>
-      </BrowserRouter>
     </div>
   );
 }
