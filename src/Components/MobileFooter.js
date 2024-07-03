@@ -10,12 +10,12 @@ export function MobileFooter() {
                     <span className="sr-only">About page</span>
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="/contact" aria-label="Contact page">
                     <span className='footer-links' aria-hidden="true">CONTACT</span>
                     <span className="sr-only">Contact page</span>
                     </a>
-                </li>
+                </li> */}
                 <li>
                     <a href="/publications" aria-label="Publications page">
                     <span className='footer-links' aria-hidden="true">PUBLICATIONS</span>

@@ -1,0 +1,88 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "title": "The bilingual language network: differential involvement of anterior cingulate, basal ganglia and prefrontal cortex in preparation, monitoring, and execution",
+        "authors": ["R Seo", "A Stocco", "CS Prat"],
+        "journal": "Neuroimage",
+        "volume": "174",
+        "pages": "44-56",
+        "citations": 63,
+        "year": 2018,
+        "url": "https://doi.org/10.1016/j.neuroimage.2018.03.048"
+      },
+      {
+        "id": 2,
+        "title": "The effect of individual differences in working memory capacity on sentence comprehension: an fMRI study",
+        "authors": ["SD Newman", "E Malaia", "R Seo", "H Cheng"],
+        "journal": "Brain topography",
+        "volume": "26",
+        "issue": "3",
+        "pages": "458-467",
+        "citations": 52,
+        "year": 2013,
+        "url": "https://link.springer.com/article/10.1007/s10548-012-0264-8"
+      },
+      {
+        "id": 3,
+        "title": "Does degree of handedness in a group of right-handed individuals affect language comprehension?",
+        "authors": ["S Newman", "E Malaia", "R Seo"],
+        "journal": "Brain and cognition",
+        "volume": "86",
+        "pages": "98-103",
+        "citations": 23,
+        "year": 2014,
+        "url": "https://doi.org/10.1016/j.bandc.2014.02.001"
+      },
+      {
+        "id": 4,
+        "title": "Proactive and Reactive Language Control in the Bilingual Brain",
+        "authors": ["R Seo", "CS Prat"],
+        "journal": "Brain Sciences",
+        "volume": "9",
+        "issue": "7",
+        "pages": "161",
+        "citations": 21,
+        "year": 2019,
+        "url": "https://doi.org/10.3390/brainsci9070161"
+      },
+      {
+        "id": 5,
+        "title": "The role of individual differences in working memory capacity on reading comprehension ability",
+        "authors": ["CS Prat", "R Seo", "BL Yamasaki"],
+        "book_title": "Handbook of Individual Differences in Reading: Reader, Text, and Context",
+        "citations": 18,
+        "year": 2016,
+        "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780203075562-24/role-individual-differences-working-memory-capacity-reading-comprehension-ability-chantel-prat-roy-seo-brianna-yamasaki"
+      },
+      {
+        "id": 6,
+        "title": "Gray Matter Correlates of Finger Gnosis in Children: A VBM Study",
+        "authors": ["F Soylu", "R Seo", "M Newman", "SD Newman"],
+        "journal": "Neuroscience",
+        "volume": "404",
+        "pages": "82-90",
+        "citations": 3,
+        "year": 2019,
+        "url": "https://doi.org/10.1016/j.neuroscience.2019.02.023"
+      },
+      {
+        "id": 7,
+        "title": "Investigating local and global control mechanisms in bilingual grammatical processing",
+        "authors": ["R Seo", "CS Prat"],
+        "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+        "citations": 1,
+        "year": 2023,
+        "url": "https://psycnet.apa.org/record/2023-75192-001"
+      },
+      {
+        "id": 8,
+        "title": "Global Language Control in Bilingual Language Processing",
+        "authors": ["R Seo"],
+        "year": 2019,
+        "url": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/45265/Seo_washington_0250E_20854.pdf?sequence=1&isAllowed=y",
+        "citations": 0
+      }
+    ]
+  }
+  

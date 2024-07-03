@@ -1,0 +1,24 @@
+{
+    "photos": [
+      {
+        "id": 1,
+        "url": "/img/roy-chantel.jpg",
+        "description": "Roy with her Advisor Chantel"
+      },
+      {
+        "id": 2,
+        "url": "/img/roy-lecture.jpg",
+        "description": "Roy lecturing at the University of Washiington"
+      },
+      {
+        "id": 3,
+        "url": "/img/roy-presentation.jpg",
+        "description": "Roy with her presentation"
+      },
+      {
+        "id": 4,
+        "url": "/img/roy-headshot.jpg",
+        "description": "A headshot of Roy"
+      }
+    ]
+  }

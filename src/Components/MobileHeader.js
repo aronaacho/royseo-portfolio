@@ -25,7 +25,7 @@ export function MobileHeader() {
     return (
         <div className='header'>
             <div className='logo-wrapper'>
-                <h1 className='name-logo' href="/">ROY SEO</h1>
+                <a className='name-logo' href="/">ROY SEO</a>
                 <button className='menu-button' aria-controls='primary-navigation' aria-expanded='false' onClick={handleMenu}>
                     <svg className='hamburger-icon' viewBox='0 0 10 10' width='25.0'>
                         <rect className='top hamburger-line' width='8.0' height='1.0' x='1.0' y='2.5' rx='.5'></rect>
@@ -39,8 +39,8 @@ export function MobileHeader() {
                 <ul className='navbar' aria-expanded='false'>
                     <li><a className='menu-item' href="/about" onClick={handleMenu}>ABOUT</a></li>
                     <li><a className='menu-item' href="/publications" onClick={handleMenu}>PUBLICATIONS</a></li>
-                    <li><a className='menu-item' href="/contact" onClick={handleMenu}>CONTACT</a></li>
-                    <li><a className='menu-item' href="/cv" onClick={handleMenu}>CV</a></li>
+                    {/* <li><a className='menu-item' href="/contact" onClick={handleMenu}>CONTACT</a></li> */}
+                    {/* <li><a className='menu-item' href="/cv" onClick={handleMenu}>CV</a></li> */}
                 </ul>
             </nav>
         </div>
