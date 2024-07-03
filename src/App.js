@@ -15,10 +15,10 @@ function App() {
       <MobileHeader />
         <Routes>
           <Route path="/" element={<MobileHome />} />
-          <Route path="/home" element={<MobileHome />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/royseo-portfolio/home" element={<MobileHome />} />
+          <Route path="/royseo-portfolio/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/publications" element={<Publications/>} />
+          <Route path="/royseo-portfolio/publications" element={<Publications/>} />
           <Route path="/cv" element={<Cv />} />
         </Routes>
         <MobileFooter/>
