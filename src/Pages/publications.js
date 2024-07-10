@@ -1,3 +1,4 @@
+import Lenis from 'lenis';
 export function Publications() {
     const data = require('../data/articles.json');
     console.log(data)
@@ -26,6 +27,19 @@ export function Publications() {
             </div>
         )
     })
+
+    const lenis = new Lenis()
+
+    lenis.on('scroll', (e) => {
+    console.log(e)
+    })
+
+    function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
 
     return (
         <div className='home-container'>

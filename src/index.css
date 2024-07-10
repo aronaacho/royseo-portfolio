@@ -94,6 +94,7 @@ a:visited {
 .brain-container {
   height: 80%;
   align-content: center;
+  display: grid;
 }
 
 footer {
@@ -307,11 +308,6 @@ button {
   font-weight: bold;
 }
 
-.contact-section {
-  /* display: flex; */
-  /* padding: 1rem; */
-}
-
 .subheading {
   font-size: 14px;
 }
@@ -328,6 +324,17 @@ button {
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     outline: solid 1px black;
+  }
+
+
+  .contact-section li:hover {
+    background-color: blue;
+    color: white;
+    outline: solid 1px black;
+
+    a {
+      color: white;
+    }
   }
 }
 

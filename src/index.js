@@ -9,12 +9,11 @@ import { About } from './Pages/about.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <Routes>
+      {/* <Routes>
         <Route path="*" element={ <App /> }>
         </Route>
-      </Routes>
-    </HashRouter>
+      </Routes> */}
+      <App />
   </React.StrictMode>
 );
 
