@@ -13,7 +13,8 @@ export function ActivityOne() {
 
     requestAnimationFrame(raf)
 return (
-        <body className="report-body">
+    <div className='home-container'>
+        <div className="fade-item page-content report-body">
             <h1>Alzheimer's Disease Classification using SimCLR</h1>
             <hr></hr>
             <p>This project implements a 3D Convolutional Neural Network (CNN) with SimCLR (Simple Framework for Contrastive Learning of Visual Representations) for Alzheimer's disease classification using MRI images. The model is designed to classify brain scans into three categories: Alzheimer's Disease (AD), Mild Cognitive Impairment (MCI), and Healthy Control (HC).</p>
@@ -129,6 +130,7 @@ return (
             <h2>License</h2>
             <hr></hr>
             <p><a href="https://opensource.org/licenses/MIT">MIT License</a></p>
-        </body>
+        </div>
+    </div>
     )
 }

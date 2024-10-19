@@ -394,11 +394,22 @@ img {
   flex-direction: column;
   width: 90%;
   padding-bottom: 100vh;
+  padding-top: 32px;
 }
 
 .report-body {
-  padding: 1rem 4rem;
+  padding: 2rem 4rem 4rem 4rem;
   font-weight: bold;
+  flex-direction: column;
+  justify-content: none;
+  width: 90%;
+
+  hr {
+    color: black;
+    size: 10;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   h2 {
     margin-top: 2rem;
