@@ -3,6 +3,7 @@ import { MobileHeader } from './Components/MobileHeader';
 import { MobileHome } from "./Pages/MobileHome";
 import { MobileFooter } from './Components/MobileFooter';
 import { Publications } from './Pages/publications';
+import { WeCareReset } from './Pages/we_care_reset';
 import { Cv } from './Pages/cv';
 import { Contact } from './Pages/contact';
 import { About } from './Pages/about';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/publications" element={<Publications/>} />
             <Route path="/cv" element={<Cv />} />
+            <Route path="/WE_CARE_RESET" element={<WeCareReset />} />
           </Routes>
           <MobileFooter/>
       </BrowserRouter>

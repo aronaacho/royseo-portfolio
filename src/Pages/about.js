@@ -24,6 +24,10 @@ export function About() {
                                 research
                             </a>
 
+                            <a className="about-link" href="WE_CARE_RESET" aria-label="We Care Reset">
+                                WE_CARE_RESET
+                            </a>
+
                             <a className="about-link" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=g1RCvm8AAAAJ&citation_for_view=g1RCvm8AAAAJ:W7OEmFMy1HYC" aria-label="Bilingual language processing">
                                 bilingual language processing
                             </a>

@@ -24,7 +24,7 @@ export function MobileHome() {
 
             </div>
             <p className='fade-item bio'>
-                <b>ROY SEO</b> is a cognitive neuroscientist based in Seattle, WA. She's currently a postdoctoral fellow at the University of Washington, where she continues to advance her research in the field after earning her Ph.D. in Cognitive Neuroscience in 2019. 
+                <b>ROY SEO</b> Ph.D., is a cognitive neuroscientist based in Seattle, WA. Her research focuses on language processing, particularly the underlying mechanisms of bilingual language processing, using neuroimaging methods. 
             </p>
         </div>
     );

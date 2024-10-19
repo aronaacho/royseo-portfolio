@@ -65,6 +65,12 @@ a:visited {
   flex-direction: column;
 }
 
+.we_care_reset-page {
+  flex-direction: column;
+  width: 90%;
+  padding-bottom: 100vh;
+}
+
 .bio-text {
   font-size: 18px;
 }
