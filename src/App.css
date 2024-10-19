@@ -65,12 +65,6 @@ a:visited {
   flex-direction: column;
 }
 
-.we_care_reset-page {
-  flex-direction: column;
-  width: 90%;
-  padding-bottom: 100vh;
-}
-
 .bio-text {
   font-size: 18px;
 }
@@ -392,6 +386,64 @@ footer {
 img {
   width: 100%;
   border: solid 1px black;
+}
+
+/* we care page and contents */
+
+.we_care_reset-page {
+  flex-direction: column;
+  width: 90%;
+  padding-bottom: 100vh;
+}
+
+.report-body {
+  padding: 1rem 4rem;
+  font-weight: bold;
+
+  h2 {
+    margin-top: 2rem;
+  }
+  code {
+    background: #f5f5f5;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+  pre {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  ul li {
+    list-style-type: disc;
+    margin-left: 3rem;
+  }
+  ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+    margin: 1rem 0;
+  }
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: blue;
+  }
+
+  li a {
+    margin-right: 5px;
+  }
+
+  #augmentation-img {
+    margin: 2rem;
+    width: 90%;
+  }
 }
 
 html.lenis, html.lenis body {

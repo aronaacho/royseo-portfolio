@@ -59,7 +59,7 @@ function ArticleCards(props) {
     const articleCardsArr = articleArr.map((article) => {
         return (
             <li key={article.id} className='article-card'>
-                <a href={article.url} target="_blank" rel="noopener noreferrer" className="external-link">
+                <a href={article.url} rel="noopener noreferrer" className="external-link">
                 {article.title}
                 </a>
             </li>
