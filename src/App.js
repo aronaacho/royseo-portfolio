@@ -4,7 +4,8 @@ import { MobileHome } from "./Pages/MobileHome";
 import { MobileFooter } from './Components/MobileFooter';
 import { Publications } from './Pages/publications';
 import { WeCareReset } from './Pages/we_care_reset';
-import { ActivityOne } from './Pages/activity1';
+import { ActivityOne } from './Pages/activity1'; 
+import { ActivityTwo } from './Pages/activity2';
 import { Cv } from './Pages/cv';
 import { Contact } from './Pages/contact';
 import { About } from './Pages/about';
@@ -24,6 +25,8 @@ function App() {
             <Route path="/cv" element={<Cv />} />
             <Route path="/WE_CARE_RESET" element={<WeCareReset />} />
             <Route path="WE_CARE_RESET/Activity1" element={<ActivityOne />} />
+            <Route path="WE_CARE_RESET/Activity2" element={<ActivityTwo />} /> 
+           
           </Routes>
           <MobileFooter/>
       </BrowserRouter>

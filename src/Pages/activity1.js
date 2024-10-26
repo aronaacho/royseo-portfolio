@@ -17,6 +17,7 @@ return (
         <div className="fade-item page-content report-body">
             <h1>Alzheimer's Disease Classification using SimCLR</h1>
             <hr></hr>
+            <p>#wecare_reset #위케어리셋 #암경험청년 #한화생명 #대한암협회</p>
             <p>This project implements a 3D Convolutional Neural Network (CNN) with SimCLR (Simple Framework for Contrastive Learning of Visual Representations) for Alzheimer's disease classification using MRI images. The model is designed to classify brain scans into three categories: Alzheimer's Disease (AD), Mild Cognitive Impairment (MCI), and Healthy Control (HC).</p>
             <h2>Datasets</h2>
             <hr></hr>

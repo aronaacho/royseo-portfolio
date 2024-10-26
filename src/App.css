@@ -397,6 +397,39 @@ img {
   padding-top: 32px;
 }
 
+.wecare-activity-photo-wrapper:nth-child(even) {
+  display: flex; 
+  justify-content: space-between;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  margin-bottom: 7vh;
+  
+  .photo-wrapper{
+    width:70%;
+    margin-left: 5vw;}
+ 
+  .right-activity-text {
+    width: 20%; 
+  }
+}
+
+.wecare-activity-photo-wrapper:nth-child(odd) {
+  display: flex; 
+  justify-content: space-between;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  margin-bottom: 7vh;
+
+  .photo-wrapper{
+    width:70%;
+    margin-right: 5vw;}
+  
+  .left-activity-text {
+    width: 20%; 
+  }
+}
+
+
 .report-body {
   padding: 2rem 4rem 4rem 4rem;
   font-weight: bold;
@@ -495,6 +528,11 @@ html.lenis, html.lenis body {
   .about-text {
     width: 100%
   }
+
+  .wecare-activity-photo-wrapper {
+    flex-direction: column;
+  }
+  
   
 }
 
