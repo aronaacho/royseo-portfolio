@@ -24,7 +24,7 @@ return (
 
 
                 <div className="wecare-activity-photo-wrapper">
-                <p className='left-activity-text'>After lunch, I shared my project progress on my personal webpage. As shown under the 'Activity 1' tab, I’m working on data augmentation using a computer vision algorithm. 점심 식사 후, 개인 웹페이지에 프로젝트 진행 상황을 공유했습니다. 'Activity 1' 탭에 나와 있듯이, 저는 컴퓨터 비젼 알고리즘을 사용하여 데이터 증강 작업을 진행 중입니다. </p> 
+                <p className='left-activity-text'>After lunch, I shared my project progress of my project, which I summarized on Acitivity 1. I’m working on data augmentation using a computer vision algorithm. 점심 식사 후, 개인 웹페이지에 정리 해 둔 프로젝트 진행 상황을 공유했습니다. 'Activity 1' 탭에 나와 있듯이, 저는 컴퓨터 비젼 알고리즘을 사용하여 데이터 증강 작업을 진행 중입니다. </p> 
                 <div className='photo-wrapper'>
                     <img key="1" src={"/img/roy-discussion1.jpeg"} alt={"discussion with friends over coffee"} className="roy-img"/>
                 </div>

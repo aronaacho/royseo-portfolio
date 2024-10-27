@@ -17,7 +17,8 @@ return (
         <div className="fade-item page-content report-body">
             <h1>Alzheimer's Disease Classification using SimCLR</h1>
             <hr></hr>
-            <p>#wecare_reset #위케어리셋 #암경험청년 #한화생명 #대한암협회</p>
+            <p># wecare_reset # 위케어리셋 # 암경험청년 # 한화생명 # 대한암협회</p>
+            <p>한화생명, 대한암협회 스펙크루 '딥러닝' 팀입니다. 이 프로젝트는 적은 데이터 양으로도 SimCLR 알고리즘을 활용해 의사가 영상을 보고 진단을 내리기 전에 치매 진단을 학습시키는 실험입니다.</p>
             <p>This project implements a 3D Convolutional Neural Network (CNN) with SimCLR (Simple Framework for Contrastive Learning of Visual Representations) for Alzheimer's disease classification using MRI images. The model is designed to classify brain scans into three categories: Alzheimer's Disease (AD), Mild Cognitive Impairment (MCI), and Healthy Control (HC).</p>
             <h2>Datasets</h2>
             <hr></hr>
