@@ -25,7 +25,7 @@ export function ActivityThree() {
                 </div>
     
                 <div className="slide-content">
-                    <h2>Intro</h2>
+                    <h2>Intro 11/14</h2>
                     <p>This research presents a novel application of contrastive learning (SimCLR) for Alzheimer's disease classification using 3D neuroimaging data. Our framework implements:</p>
                     <ol>
                         <li>A custom 3D CNN architecture optimized for medical imaging</li>
@@ -42,7 +42,7 @@ export function ActivityThree() {
                 </div>
     
                 <div className="slide-content">
-                    <h2>Intro - SimCLR</h2>
+                    <h2>Intro - SimCLR 11/15-11/16</h2>
                     <hr/>
                     <div className="simclr-diagram" style={{ position: 'relative', margin: '40px auto', maxWidth: '800px' }}>
                         {/* Left Side Labels */}
