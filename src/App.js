@@ -7,6 +7,7 @@ import { WeCareReset } from './Pages/we_care_reset';
 import { ActivityOne } from './Pages/activity1'; 
 import { ActivityTwo } from './Pages/activity2';
 import { ActivityThree } from './Pages/activity3';
+import { ActivityFour } from './Pages/activity4';
 import { Cv } from './Pages/cv';
 import { Contact } from './Pages/contact';
 import { About } from './Pages/about';
@@ -28,7 +29,7 @@ function App() {
             <Route path="WE_CARE_RESET/Activity1" element={<ActivityOne />} />
             <Route path="WE_CARE_RESET/Activity2" element={<ActivityTwo />} /> 
             <Route path="WE_CARE_RESET/Activity3" element={<ActivityThree />} /> 
-           
+            <Route path="WE_CARE_RESET/Activity4" element={<ActivityFour />} /> 
           </Routes>
           <MobileFooter/>
       </BrowserRouter>

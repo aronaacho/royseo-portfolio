@@ -43,5 +43,9 @@
   },
   "devDependencies": {
     "react-scripts": "^5.0.1"
-  }
+  },
+  "description": "Check it out here: https://roy-seo.web.app/",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

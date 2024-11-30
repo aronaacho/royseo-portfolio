@@ -17,6 +17,18 @@
         "title": "ACTIVITY 3",
         "year": "November, 2024",
         "url": "WE_CARE_RESET/Activity3"
+      },
+      {
+        "id": 4,
+        "title": "ACTIVITY 4",
+        "year": "November, 2024",
+        "url": "WE_CARE_RESET/Activity4"
+      },
+      {
+        "id": 5,
+        "title": "ACTIVITY 5",
+        "year": "December, 2024",
+        "url": "WE_CARE_RESET/Activity5"
       }
     ]
   }
