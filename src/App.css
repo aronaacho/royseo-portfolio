@@ -379,9 +379,9 @@ footer {
   width: 70%;
 }
 
-.photo-wrapper {
-  width: 25%;
-}
+/* .photo-wrapper {
+  width: auto;
+} */
 
 img {
   width: 100%;
@@ -405,12 +405,12 @@ img {
   margin-bottom: 7vh;
   
   .photo-wrapper{
-    width:70%;
+    width: auto;
     margin-left: 5vw;}
  
-  .right-activity-text {
+  /* .right-activity-text {
     width: 20%; 
-  }
+  } */
 }
 
 .wecare-activity-photo-wrapper:nth-child(odd) {
@@ -421,12 +421,12 @@ img {
   margin-bottom: 7vh;
 
   .photo-wrapper{
-    width:70%;
+    width: auto;
     margin-right: 5vw;}
   
-  .left-activity-text {
+  /* .left-activity-text {
     width: 20%; 
-  }
+  } */
 }
 
 
