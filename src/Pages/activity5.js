@@ -17,7 +17,7 @@ return (
         <div className="fade-item page-content report-body">
             <div className="wecare-activity-photo-wrapper">
                 <div className='photo-wrapper'>
-                    <img key="0" src={"/img/royseo-ipad-pencil.jpeg"} alt={"dinner with friends"} className="roy-img"/>
+                    <img key="0" src={"/img/royseo-ipad-pencil.jpeg"} alt={"Finally upgraded: My new iPad"} className="roy-img"/>
                 </div>
                 <p className='right-activity-text'> I finally purchased a tablet PC! As part of setting up a computer workstation in my space, I had included a tablet PC in my budget, but I hesitated to decide which one would be the best fit for me. My budget was also a bit tight to buy everything I had planned for this month. Eventually, I went with an Apple iPad and Pencil. I already feel like my work life has been significantly enhanced with this addition. The best part is that I can now read anywhere, even in bed!
                     I'm grateful for these. 
@@ -30,7 +30,7 @@ return (
                 <p className='left-activity-text'> 
                 Currently, among my ongoing experiments, Grad-CAM is particularly stressing me out, as you can see. However, I’m hopeful that these new gadgets will help streamline my workflow and boost my productivity. 현재 진행 중인 실험들 중에서 Grad-CAM이 특히 저를 스트레스받게 하고 있습니다. 하지만 이 새로운 기기들이 실험 과정을 더 효율적으로 만들어주고 생산성을 높이는 데 도움이 될 거라고 기대하고 있어요. # 위케어리셋 # 암경험청년 # 한화생명 # 대한암협회 </p> 
                 <div className='photo-wrapper'>
-                    <img key="1" src={"/img/royseo-grad-cam.jpeg"} alt={"discussion with Dr.Kim from Gachon Gill College over some deliciou desert"} className="roy-img"/>
+                    <img key="1" src={"/img/royseo-grad-cam.jpeg"} alt={"Battling Grad-CAM stress: New gadgets to the rescue"} className="roy-img"/>
                 </div>
                 </div>        
         </div>

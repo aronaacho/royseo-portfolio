@@ -9,6 +9,7 @@ import { ActivityTwo } from './Pages/activity2';
 import { ActivityThree } from './Pages/activity3';
 import { ActivityFour } from './Pages/activity4';
 import { ActivityFive } from './Pages/activity5';
+import { ActivitySix } from './Pages/activity6';
 import { Cv } from './Pages/cv';
 import { Contact } from './Pages/contact';
 import { About } from './Pages/about';
@@ -32,6 +33,7 @@ function App() {
             <Route path="WE_CARE_RESET/Activity3" element={<ActivityThree />} /> 
             <Route path="WE_CARE_RESET/Activity4" element={<ActivityFour />} /> 
             <Route path="WE_CARE_RESET/Activity5" element={<ActivityFive />} />
+            <Route path="WE_CARE_RESET/Activity6" element={<ActivitySix />} />
           </Routes>
           <MobileFooter/>
       </BrowserRouter>
