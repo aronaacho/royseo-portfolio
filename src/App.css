@@ -474,6 +474,11 @@ img {
   } */
 }
 
+.video-we-care-reset {
+  width: 50%;
+  min-width: 25%;
+  border: black solid 1px;
+}
 
 .report-body {
   padding: 2rem 4rem 4rem 4rem;

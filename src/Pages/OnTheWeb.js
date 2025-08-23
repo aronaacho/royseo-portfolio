@@ -37,14 +37,14 @@ export function OnTheWeb() {
 
     return (
         <div className='home-container'>
-            <div className='fade-item page-content publications-page' >
+            <div className='fade-item page-content publications-page'>
                 <h1 className='page-title'>
                     ON THE WEB
                 </h1>
                 <div>
                     {articleSections}
                     {/* WE_CARE_RESET Journey: */}
-                <video controls style={{width: '25%'}}>
+                <video controls className='video-we-care-reset'>
                     <source src='img/we-care-interview.mp4' type="video/mp4"/>
                 </video>     
                 </div>
