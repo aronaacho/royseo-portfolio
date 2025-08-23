@@ -1,6 +1,6 @@
 import Lenis from 'lenis';
 export function OnTheWeb() {
-    const data = require('../data/wecarereset.json');
+    const data = require('../data/ontheweb.json');
     // console.log(data)
     var sortedArticles = {}
 
@@ -42,13 +42,12 @@ export function OnTheWeb() {
                     ON THE WEB
                 </h1>
                 <div>
+                    {articleSections}
                     {/* WE_CARE_RESET Journey: */}
                 <video controls style={{width: '25%'}}>
                     <source src='img/we-care-interview.mp4' type="video/mp4"/>
                 </video>     
                 </div>
-                         
-                {/* {articleSections} */}
             </div>
         </div>
         
