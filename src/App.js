@@ -2,8 +2,8 @@ import './App.css';
 import { MobileHeader } from './Components/MobileHeader';
 import { MobileHome } from "./Pages/MobileHome";
 import { MobileFooter } from './Components/MobileFooter';
-import { Publications } from './Pages/publications';
-import { WeCareReset } from './Pages/we_care_reset';
+import { Publications } from './Pages/Publications';
+import { OnTheWeb } from './Pages/OnTheWeb';
 import { ActivityOne } from './Pages/activity1'; 
 import { ActivityTwo } from './Pages/activity2';
 import { ActivityThree } from './Pages/activity3';
@@ -25,15 +25,15 @@ function App() {
             <Route exact path="/" element={<MobileHome />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/publications" element={<Publications/>} />
+            <Route path="/research" element={<Publications/>} />
             <Route path="/cv" element={<Cv />} />
-            <Route path="/WE_CARE_RESET" element={<WeCareReset />} />
-            <Route path="WE_CARE_RESET/Activity1" element={<ActivityOne />} />
+            <Route path="/on-the-web" element={<OnTheWeb />} />
+            {/* <Route path="WE_CARE_RESET/Activity1" element={<ActivityOne />} />
             <Route path="WE_CARE_RESET/Activity2" element={<ActivityTwo />} /> 
             <Route path="WE_CARE_RESET/Activity3" element={<ActivityThree />} /> 
             <Route path="WE_CARE_RESET/Activity4" element={<ActivityFour />} /> 
             <Route path="WE_CARE_RESET/Activity5" element={<ActivityFive />} />
-            <Route path="WE_CARE_RESET/Activity6" element={<ActivitySix />} />
+            <Route path="WE_CARE_RESET/Activity6" element={<ActivitySix />} /> */}
           </Routes>
           <MobileFooter/>
       </BrowserRouter>

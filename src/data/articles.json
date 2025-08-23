@@ -9,7 +9,10 @@
         "pages": "44-56",
         "citations": 63,
         "year": 2018,
-        "url": "https://doi.org/10.1016/j.neuroimage.2018.03.048"
+        "url": "https://doi.org/10.1016/j.neuroimage.2018.03.048",
+        "abstract": "Research on bilingual language control has often neglected the preparatory processes that are crucial for effective cognitive regulation. Moreover, distinctions between global language choice and the selection of words or morpho-syntactic rules remain underexplored. To investigate these mechanisms, an fMRI study with 23 early Spanish-English bilinguals separately examined preparation and execution phases, focusing on the timing of cognitive control activation. Analyses revealed that the anterior cingulate cortex (ACC) was most engaged during preparation, while the dorsolateral prefrontal cortex (DLPFC) and presupplementary motor areas showed greater activity as tasks progressed to execution. In contrast, activation in the basal ganglia (BG), left middle temporal lobe, and right precentral cortex did not significantly change across phases. These findings suggest that cognitive control regions—ACC, DLPFC, and BG—contribute to distinct aspects of bilingual regulation: the BG monitoring target language continuity, the ACC supporting top-down preparation, and the DLPFC guiding selection throughout preparation and execution.",
+        "image": "/img/paper3-figure-royseo-phd.png",
+        "pdf": "../img/paper3-royseo-phd.pdf"
       },
       {
         "id": 2,
@@ -44,7 +47,10 @@
         "pages": "161",
         "citations": 21,
         "year": 2019,
-        "url": "https://doi.org/10.3390/brainsci9070161"
+        "url": "https://doi.org/10.3390/brainsci9070161",
+        "abstract": "Studies on bilingual language control have rarely addressed preparatory processes, despite their central role in cognitive regulation. It also remains unclear how global language choice differs from selecting words or morpho-syntactic rules. To clarify this, an fMRI study with 23 early Spanish-English bilinguals examined preparation and execution separately, focusing on when general control networks are engaged. Analyses showed that the anterior cingulate cortex (ACC) was primarily recruited during preparation, while dorsolateral prefrontal (DLPFC) and presupplementary motor regions exhibited stronger activation as tasks moved into execution. In contrast, basal ganglia (BG), left middle temporal, and right precentral cortices did not vary significantly. These findings indicate distinct contributions of key control regions: the BG monitoring ongoing target language use, the ACC enabling top-down preparation, and the DLPFC supporting selection from preparation through execution.",
+        "image": "/img/paper2-figure-royseo-phd.png",
+        "pdf": "../img/paper2-royseo-phd.pdf"
       },
       {
         "id": 5,
@@ -73,7 +79,10 @@
         "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
         "citations": 1,
         "year": 2023,
-        "url": "https://psycnet.apa.org/record/2023-75192-001"
+        "url": "https://psycnet.apa.org/record/2023-75192-001",
+        "abstract": "Bilingual speakers rely on both global and local control to regulate co-activated languages competing for selection, yet how these mechanisms function in morphosyntactic processing remains unclear. This study examined bilingual control in a morphosyntactic production task. In two experiments, 48 early Spanish–English bilinguals performed rapid instructed task learning paradigms combined with priming-in-item-recognition manipulations to test whether parallel activation occurred across languages and across rules of the same type within a language. Findings revealed that participants had greater difficulty rejecting incorrect responses in the intended target language than rejecting responses containing the correct grammatical operation but expressed in the non-target language. These results indicate that global control at the level of language selection is more robust than local control mechanisms when managing morphosyntactic manipulations in bilinguals.",
+        "image": "/img/paper1-figure-royseo-phd.png",
+        "pdf": "/img/paper1-royseo-phd.pdf"
       },
       {
         "id": 8,

@@ -33,7 +33,7 @@ export function MobileHeader() {
                         <div>
                             <a className='name-logo' href="/">ROY SEO</a>
                         </div>
-                        <li><a id='second-nav-item' className='nav-item' href="/publications">PUBLICATIONS</a></li>
+                        <li><a id='second-nav-item' className='nav-item' href="/research">RESEARCH</a></li>
                     </ul>
                 </nav>
             </div>
@@ -59,7 +59,7 @@ export function MobileHeader() {
             <nav className='fading-menu'>
                 <ul className='navbar fading-navbar' aria-expanded='false'>
                     <li><a className='menu-item' href="/about">ABOUT</a></li>
-                    <li><a className='menu-item' href="/publications">PUBLICATIONS</a></li>
+                    <li><a className='menu-item' href="/research">RESEARCH</a></li>
                     {/* <li><a className='menu-item' href="/contact" onClick={handleMenu}>CONTACT</a></li> */}
                     {/* <li><a className='menu-item' href="/cv" onClick={handleMenu}>CV</a></li> */}
                 </ul>

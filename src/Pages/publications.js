@@ -9,7 +9,7 @@ export function Publications() {
         if (!(item.year in sortedArticles)) {
             sortedArticles[item.year] = []
         }
-        sortedArticles[item.year].push({'id': item.id, 'title': item.title, 'url': item.url})
+        sortedArticles[item.year].push({'id': item.id, 'title': item.title, 'url': item.url, 'authors': item.authors, 'abstract': item.abstract, 'image': item.image, 'pdf': item.pdf})
     })
     
     console.log(sortedArticles)
@@ -45,8 +45,11 @@ export function Publications() {
         <div className='home-container'>
             <div className='fade-item page-content publications-page'>
                 <h1 className='page-title'>
-                    PUBLICATIONS
+                    RESEARCH
                 </h1>
+                <i className='article-year' style={{color : 'black', border: '1px solid black', padding: '5px', margin: '5px 0px'}}>
+                    2025: In Preparation
+                </i>
                 {articleSections}
             </div>
         </div>
@@ -56,14 +59,56 @@ export function Publications() {
 function ArticleCards(props) {
     const articleArr = props.yearData
 
+
     const articleCardsArr = articleArr.map((article) => {
-        return (
-            <li key={article.id} className='article-card'>
-                <a href={article.url} target="_blank" rel="noopener noreferrer" className="external-link">
-                {article.title}
-                </a>
-            </li>
-        )
+        if (!article.image) {
+            return (
+                <li key={article.id} className='article-card' style={{color: 'pink'}}>
+                    <div style={{display: 'flex', flexDirection: 'row'}}>
+                        <div>
+                            <a href={article.url}>
+                                {article.title}
+                            </a>
+                            <div>
+                                <em className='author-names'>
+                                    {article.authors.join(', ')}
+                                </em>
+                                <p className='abstract'>
+                                    {article.abstract}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            )
+        } else {
+            return (
+                <li key={article.id} className='article-card'>
+                    <div className="img-article-card">
+                        <div>
+                            <a href={article.url} target="" rel="noopener noreferrer">
+                                {article.title}
+                            </a>
+                            <div>
+                                <em className='author-names'>
+                                    {article.authors.join(', ')}
+                                </em>
+                                <div>
+                                    <a href={article.pdf} download={article.title + " Roy Seo"} className='pdf-button' style={{color: 'white'}}>PDF</a>
+                                </div>
+                                <p className='abstract'>
+                                    {article.abstract}
+                                </p>
+                            </div>
+                        </div>
+                        <div className="article-image">
+                        <img key="0" src={article.image} alt={article.title}/>
+                        </div >
+                    </div>
+
+                </li>
+            )
+        }
     })
     return articleCardsArr
 }

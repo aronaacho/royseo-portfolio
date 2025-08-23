@@ -17,9 +17,9 @@ export function MobileFooter() {
                     </a>
                 </li> */}
                 <li>
-                    <a href="/publications" aria-label="Publications page">
-                    <span className='footer-links' aria-hidden="true">PUBLICATIONS</span>
-                    <span className="sr-only">Publications page</span>
+                    <a href="/research" aria-label="Research page">
+                    <span className='footer-links' aria-hidden="true">RESEARCH</span>
+                    <span className="sr-only">Research page</span>
                     </a>
                 </li>
                 <li>
