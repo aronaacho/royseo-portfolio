@@ -11,8 +11,8 @@ export function ActivityThree() {
         requestAnimationFrame(raf);
     }
 
-    requestAnimationFrame(raf);
-
+    requestAnimationFrame(raf); 
+      
     return (
         <div className='home-container'>
             <div className="fade-item page-content report-body">
@@ -53,6 +53,13 @@ export function ActivityThree() {
                 <div className="slide-content">
                     <h2>Intro - SimCLR 11/15-11/16</h2>
                     <hr />
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTI_EAMTr6JxTOnyvlsasA3RcnL62zc6SjHCFwqZ_DQ2CL4bjOOJ9C9jVKtogKhwmUFJYOHhig5ko71/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+
+
                     <div className="simclr-diagram" style={{ position: 'relative', margin: '40px auto', maxWidth: '800px' }}>
                         {/* Left Side Labels */}
                         <div style={{ position: 'absolute', left: '0', top: '20px', textAlign: 'left' }}>
@@ -201,7 +208,9 @@ export function ActivityThree() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     );
 }
+
+
